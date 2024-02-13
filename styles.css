@@ -1,0 +1,30 @@
+
+.Gameboard{
+    margin-inline-start: 25%;
+    margin-inline-end: 75%;
+    display: grid;
+    background-color: aqua;
+    width: 500px;
+    height: 500px;
+    
+    grid-template-columns: repeat(3, 1fr); /*Determines the max amount of columns */
+    grid-template-rows: repeat(3, 1fr);
+}
+
+button{
+    font-size: 100px;
+}
+
+textarea{
+    margin-inline-start: 25%;
+    margin-inline-end: 75%;
+    margin-block-start: 25%;
+}
+
+.visible{
+    visibility: visible;
+}
+
+.invisible{
+    visibility: hidden;
+}
